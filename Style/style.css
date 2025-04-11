@@ -1,3 +1,11 @@
+body {
+    background-color: rgb(54, 116, 181);
+}
+
+header{
+    background-color: #A1E3F9;
+}
+
 .logo{
     display: flex;
     justify-content: center;
@@ -10,4 +18,78 @@
 .navegacion{
     display: flex;
     justify-content: center;
+    padding-bottom: 5px;
+}
+.navegacion nav a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+.navegacion nav a :hover{
+    text-decoration: underline;
+}
+
+.info1 {
+    overflow: auto;
+    background-color: rgb(209, 248, 239);
+}
+
+.info1 .images1 img{
+    float: left;
+    width: 200px;
+    border-radius: 7px;
+    padding-right: 15px;
+}
+
+.info2 {
+    overflow: auto;
+    background-color: rgb(209, 248, 239);
+    padding-top: 5px;
+}
+
+.info2 .images2 img{
+    float: left;
+    width: 200px;
+    border-radius: 7px;
+    padding-right: 15px;
+}
+
+.info3{
+    overflow: auto;
+    background-color: rgb(209, 248, 239);
+    padding-top: 5px;
+}
+
+.info3 .images3 img{
+    float: left;
+    width: 200px;
+    border-radius: 7px;
+    padding-right: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 20px;
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #ccc;
+    background-color: rgb(209, 248, 239);
+}
+
+.card img{
+    padding-top: 5px;
+    width: 200px;
+    display: block;
+    padding-left: 50px;
+    padding-bottom: 5px;
+}
+
+.card-content {
+    padding: 50px;
 }
